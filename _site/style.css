@@ -13,6 +13,7 @@
  */
 
 body {
+    background: #05091a;
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
@@ -275,7 +276,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+/*    color: #fff;
     background-attachment: scroll;
     background-image: url('/img/header-bg.jpg');
     background-position: center center;
@@ -283,7 +284,23 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+
+    background-image: 
+        url('/img/header/topLeft.png'),
+        url('/img/header/topRight.png'),
+        url('/img/header/bottomLeft.png'),
+        url('/img/header/bottomRight.png');
+    background-repeat: 
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 
+        top left,
+        top right,
+        bottom left, 
+        bottom right;
 }
 
 header .intro-text {
