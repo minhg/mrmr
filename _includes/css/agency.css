@@ -872,3 +872,19 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.rsvp {
+    padding: 150px 0 100px;
+}
