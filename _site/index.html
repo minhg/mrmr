@@ -35,8 +35,8 @@
         <p>Canonbury Tavern</p>
         <p>21 Canonbury Pl, London N1 2NS</p>
       </section>
-      <section class="order">
-        <h3>Order of the day:</h2>
+      <section class="copy">
+        <h3>Order of the day:</h3>
         <p>
           13:45 (for 14:00 start)<br />
           Wedding service at Islington Town Hall
@@ -65,22 +65,60 @@
         <p>Please let us know if you have any dietary preferences or allergies</p>
         <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScG5BbgJiFdMj2lZ0JTMYgmXIDO0Dt6W680e3SUUybeh7JXOw/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
 
-        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScG5BbgJiFdMj2lZ0JTMYgmXIDO0Dt6W680e3SUUybeh7JXOw/formResponse">
+        <form id="dinnerform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScG5BbgJiFdMj2lZ0JTMYgmXIDO0Dt6W680e3SUUybeh7JXOw/formResponse">
 
     <ul>
         <li>
-            <label name="entry.2024344285">Name</label>
-            <input type="text" name="entry.2024344285" required />
+            <label for="entry.2024344285">Name <span class="required">*</span></label>
+            <input type="text" id="entry.2024344285" name="entry.2024344285" required />
         </li>
         <li>
-            <label name="entry.379116634">Starter</label>
-            <input type="text" name="entry.379116634" required />
+            <h4>Starter</h4>
+            <select name="entry.379116634">
+                <option value="Salmon Tartare,  Avocado, Wasabi, Chives &amp; Micro Pea Shoots">Salmon Tartare,  Avocado, Wasabi, Chives &amp; Micro Pea Shoots</option>
+                <option value="Chicken Liver Parfait, Apricot Jam with Crostini Bread">Chicken Liver Parfait, Apricot Jam with Crostini Bread</option>
+                <option value="Grilled Courgette, Spiced Chickpeas &amp; Smoked Aubergine (v)">Grilled Courgette, Spiced Chickpeas &amp; Smoked Aubergine (v)</option>
+            </select>
         </li>
-        <li><input type="submit" value="Send" /></li>
+
+        <li>
+            <h4>Mains</h4>
+            <select name="entry.924214892">
+                <option value="Lamb Canon &amp; Breast Olive Oil Mash, Kale &amp; Red Wine Jus">Lamb Canon &amp; Breast Olive Oil Mash, Kale &amp; Red Wine Jus</option>
+                <option value="Seasonal Fish, Roasted Vegetables, Capers &amp; Olive Tomato Sauce">Seasonal Fish, Roasted Vegetables, Capers &amp; Olive Tomato Sauce</option>
+                <option value="Portobello Mushrooms Stuffed Blue Cheese, Topped with Crispy Cabbage (v)">Portobello Mushrooms Stuffed Blue Cheese, Topped with Crispy Cabbage (v)</option>
+            </select>
+        </li>
+
+        <li>
+            <h4>Dessert</h4>
+            <select name="entry.1634200119">
+                <option value="Chocolate Lava Cake, Vanilla Ice-Cream">Chocolate Lava Cake, Vanilla Ice-Cream</option>
+                <option value="Coffee Tiramisu">Coffee Tiramisu</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="entry.2057215799">Allergies</label>
+            <input type="text" name="entry.2057215799"/>
+        </li>
+
+        <input type="hidden" name="entry.1634200119" jsname="L9xHkb" disabled>
+
+        <li><input class="signerica" type="submit" value="Submit" class="submit"/></li>
     </ul>
 
 </form>
-
+      </section>
+      <section class="copy">
+        <h3>Registry</h3>
+        <p>Rather than receiving gifts, we would be grateful if we could together support Macmillan Cancer Support and Marie Curie.</p>
+        <p>Cancer continues to impact all of our lives. Macmillan provides support and advice for thousands of lives affected by cancer. Marie
+Curie offers care for those with a terminal illness and guidance for the bereaved.</p>
+        <p>Donations can be made on <a href="http://www.justgiving.com/fundraising/
+minhandrich">www.justgiving.com/fundraising/minhandrich</a></p>
+        <p>More information about each charity can be found on <a href="www.macmillan.org.uk">www.macmillan.org.uk</a> and
+<a href="www.mariecurie.org.uk">www.mariecurie.org.uk</a></p>
       </section>
 
     </body>

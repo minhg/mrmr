@@ -1,15 +1,44 @@
-<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScG5BbgJiFdMj2lZ0JTMYgmXIDO0Dt6W680e3SUUybeh7JXOw/formResponse">
+<form id="dinnerform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScG5BbgJiFdMj2lZ0JTMYgmXIDO0Dt6W680e3SUUybeh7JXOw/formResponse">
 
     <ul>
         <li>
-            <label name="entry.2024344285">Name</label>
-            <input type="text" name="entry.2024344285" required />
+            <label for="entry.2024344285">Name <span class="required">*</span></label>
+            <input type="text" id="entry.2024344285" name="entry.2024344285" required />
         </li>
         <li>
-            <label name="entry.379116634">Starter</label>
-            <input type="text" name="entry.379116634" required />
+            <h4>Starter</h4>
+            <select name="entry.379116634">
+                <option value="Salmon Tartare,  Avocado, Wasabi, Chives &amp; Micro Pea Shoots">Salmon Tartare,  Avocado, Wasabi, Chives &amp; Micro Pea Shoots</option>
+                <option value="Chicken Liver Parfait, Apricot Jam with Crostini Bread">Chicken Liver Parfait, Apricot Jam with Crostini Bread</option>
+                <option value="Grilled Courgette, Spiced Chickpeas &amp; Smoked Aubergine (v)">Grilled Courgette, Spiced Chickpeas &amp; Smoked Aubergine (v)</option>
+            </select>
         </li>
-        <li><input type="submit" value="Send" /></li>
+
+        <li>
+            <h4>Mains</h4>
+            <select name="entry.924214892">
+                <option value="Lamb Canon &amp; Breast Olive Oil Mash, Kale &amp; Red Wine Jus">Lamb Canon &amp; Breast Olive Oil Mash, Kale &amp; Red Wine Jus</option>
+                <option value="Seasonal Fish, Roasted Vegetables, Capers &amp; Olive Tomato Sauce">Seasonal Fish, Roasted Vegetables, Capers &amp; Olive Tomato Sauce</option>
+                <option value="Portobello Mushrooms Stuffed Blue Cheese, Topped with Crispy Cabbage (v)">Portobello Mushrooms Stuffed Blue Cheese, Topped with Crispy Cabbage (v)</option>
+            </select>
+        </li>
+
+        <li>
+            <h4>Dessert</h4>
+            <select name="entry.1634200119">
+                <option value="Chocolate Lava Cake, Vanilla Ice-Cream">Chocolate Lava Cake, Vanilla Ice-Cream</option>
+                <option value="Coffee Tiramisu">Coffee Tiramisu</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="entry.2057215799">Allergies</label>
+            <input type="text" name="entry.2057215799"/>
+        </li>
+
+        <input type="hidden" name="entry.1634200119" jsname="L9xHkb" disabled>
+
+        <li><input class="signerica" type="submit" value="Submit" class="submit"/></li>
     </ul>
 
 </form>
