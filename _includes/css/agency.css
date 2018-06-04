@@ -6,6 +6,7 @@ body {
     background: #05091a;
     overflow-x: hidden;
     font-family: 'Work Sans',Helvetica,Arial,sans-serif;
+    min-width: 500px;
     color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
 }
