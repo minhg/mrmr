@@ -167,6 +167,10 @@ body {
         margin: 10px 0;
     }
 
+    .menu select {
+        width: 200px;
+    }
+
 input[type=submit] {
     background: transparent; 
     border:0 none;
