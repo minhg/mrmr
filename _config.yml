@@ -6,5 +6,6 @@ title: Minh and Rich
 email: rsvp@minhandrich.com
 description: "Minh and Rich are getting married"
 
-sass: 
-  style: compressed
+sass:
+  sass_dir:          _scss
+  style:            :compressed
