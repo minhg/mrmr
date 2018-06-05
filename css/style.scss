@@ -22,7 +22,7 @@ body {
 
 @font-face {
     font-family: 'Signerica'; 
-    src: url('{{ site.baseurl }}/font/Signerica_Thin.ttf');
+    src: url('{{ site.baseurl }}/font/Signerica_Fat.ttf');
     letter-spacing: 2px;
 }
 
@@ -147,16 +147,16 @@ body {
         bottom right;
   display: flex;
   flex-flow: column;
-  height: 100%;
-  min-height: 900px;
+  // min-height: 900px;
   text-align: center;
-  padding: 50px 0 50px;
+  margin: 0 0 50px 0;
+  padding: 100px 0 150px;
 }
 
 .copy {
     border: 1px solid #{{ site.data.template.color.secondary}};
-    margin: 20px;
-    padding: 50px 50px 30px;
+    margin: 20px 40px;
+    padding: 50px 30px 30px;
     letter-spacing: 2px;
     text-transform: none;
     line-height: 1.75em;
@@ -197,10 +197,6 @@ input[type=submit] {
 
 .required {
     color: red;
-}
-
-.rsvp {
-    padding: 200px 0 0;
 }
 
 .numeric {
